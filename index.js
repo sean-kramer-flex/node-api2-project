@@ -2,7 +2,7 @@
 const server = require('./api/server')
 
 server.get('/', (req, res) => {
-  res.json("server working!")
+  res.json("Welcome to Posts API!")
 })
 
 server.listen(4000, () => {
